@@ -8,14 +8,14 @@
     <title>PHP Part 3 exo 6</title>
 </head>
 
-<!-- Créer un tableau associatif departments avec comme index le numéro des départements des Hauts de France et en valeur leur nom. -->
+<!-- Avec le tableau de l'exercice 4, afficher toutes les valeurs de ce tableau ainsi que les clés associées. Cela pourra être, par exemple, de la forme : Le département + nom du département + a le numéro + numéro du département -->
 <body>
 
 <?php 
-    $department = array('02'=> 'Aisne', '59'=> 'Nord', '60'=> 'Oise', '62'=> 'Pas-de-Calais', '80'=> 'Somme')
+    $departments = array('02'=> 'Aisne', '59'=> 'Nord', '60'=> 'Oise', '62'=> 'Pas-de-Calais', '80'=> 'Somme')
 ?>
-<?php foreach($department as $cle => $element){ ?>
-<p><?php echo 'le département '. $element . ' a le numéro '. $cle ?></p> <!-- clé affiche le premier élement et l'element affiche la valeur affecté -->
+<?php foreach($departments as $departmentNumber => $department){ ?>
+<p><?php echo 'le département '. $department . ' a le numéro '. $departmentNumber ?></p> <!-- clé affiche le premier élement et l'element affiche la valeur affecté -->
 <?php } ?>
 <!-- le symbole => veut dire "associé à" d'où le terme tableau associatif-->
 

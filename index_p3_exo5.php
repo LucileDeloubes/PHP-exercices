@@ -8,7 +8,7 @@
     <title>PHP Part 3 exo 5</title>
 </head>
 
-<!-- Créer un tableau associatif departments avec comme index le numéro des départements des Hauts de France et en valeur leur nom. -->
+<!-- Avec le tableau de l'exercice 4, afficher toutes les valeurs de ce tableau.-->
 <body>
 
 <?php 

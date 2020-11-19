@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -13,8 +11,15 @@
 
 <?php 
     $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre')
+
+// autre façon de faire : 
+    // $months2 = array();
+    // $months2[0] = 'janvier';
+    // $months2[1] = 'février';
+    // $months2[2] = 'mars';
+    // ...
 ?>
-    
+   
     
 </body>
 </html>

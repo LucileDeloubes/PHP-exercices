@@ -12,7 +12,12 @@
 <body>
 
 <?php 
-    $department = array('02'=> 'Aisne', '59'=> 'Nord', '60'=> 'Oise', '62'=> 'Pas-de-Calais', '80'=> 'Somme')
+    $department = array(
+        '02'=> 'Aisne', 
+        '59'=> 'Nord', 
+        '60'=> 'Oise', 
+        '62'=> 'Pas-de-Calais',
+        '80'=> 'Somme');
 ?>
 <!-- le symbole => veut dire "associé à" d'où le terme tableau associatif-->
 

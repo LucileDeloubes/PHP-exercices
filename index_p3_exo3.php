@@ -6,17 +6,19 @@
     <title>PHP Part 3 exo 3</title>
 </head>
 
-<!-- Avec le tableau de l'exercice 1, afficher la valeur de l'index 5. -->
+<!-- Avec le tableau de l'exercice 1 et une boucle, afficher toutes les valeurs de ce tableau.-->
 <body>
 
 <?php 
     $months = array('janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre')
 ?>
-<?php for($case = 0; $case <= 11; $case++){ ?>
-<p><?php echo $months[$case] ?></p>
-<?php } ?>
 
-    
+
+<?php foreach($months as $month){ ?>
+       <p><?php  echo $month; ?></p>
+       <?php } ?>
+
+
     
 </body>
 </html>
